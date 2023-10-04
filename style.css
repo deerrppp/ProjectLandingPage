@@ -3,10 +3,47 @@
 body {
     font-family: 'Hero New', sans-serif;
     min-height: 100vh;   
-    margin: 0;                                         
+     margin: 0 auto;   
+     display: flex;  
+     flex-direction: column;                                     */
 }
 
 img {
     width: 100px;
     height: 100px;
+}
+
+.header {
+    display: flex;
+}
+
+.second {
+    display: flex;
+}
+
+.third {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.cards {
+    display: flex;
+}
+.fourth {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
