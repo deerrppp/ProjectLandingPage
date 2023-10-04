@@ -2,10 +2,9 @@
 
 body {
     font-family: 'Hero New', sans-serif;
-    min-height: 100vh;   
-     margin: 0 auto;   
-     display: flex;  
-     flex-direction: column;                                     */
+    min-height: 100vh;     
+    display: flex; 
+    flex-direction: column; 
 }
 
 img {
@@ -15,6 +14,7 @@ img {
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 .second {
@@ -39,11 +39,34 @@ img {
 
 a {
     text-decoration: none;
-    color: #333;
 }
 
-li {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.bold-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+.header,
+.second,
+.footer { 
+    background-color: #1F2937;
+}
+
+.text,
+.button2,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
 }
